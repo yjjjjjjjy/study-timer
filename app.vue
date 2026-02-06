@@ -74,11 +74,11 @@
 <script setup>
 import { ref, computed, onUnmounted } from 'vue'
 
-// 타이머 설정 (테스트용)
-const PREPARE_TIME = 5  // 준비 시간 (초)
-const STUDY_TIME = 50   // 공부 시간 (초)
-const BREAK_TIME = 10   // 휴식 시간 (초)
-const TOTAL_SETS = 10   // 총 세트 수
+// 타이머 설정 (실제 사용)
+const PREPARE_TIME = 5     // 준비 시간 (5초)
+const STUDY_TIME = 3000    // 공부 시간 (50분 = 3000초)
+const BREAK_TIME = 600     // 휴식 시간 (10분 = 600초)
+const TOTAL_SETS = 10      // 총 세트 수
 
 // 상태 관리
 const isStarted = ref(false)
