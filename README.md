@@ -53,4 +53,3 @@ const PREPARE_TIME = 5     // 5초 → 5분으로 변경 시: 300
 const STUDY_TIME = 50      // 50초 → 50분으로 변경 시: 3000
 const BREAK_TIME = 10      // 10초 → 10분으로 변경 시: 600
 ```
-"# study-timer" 

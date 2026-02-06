@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
+    baseURL: '/study-timer/',
     head: {
       title: '공부 타이머',
       meta: [
@@ -9,5 +10,9 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ]
     }
+  },
+  ssr: false,
+  nitro: {
+    preset: 'static'
   }
 })
